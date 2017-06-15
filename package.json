@@ -1,0 +1,37 @@
+{
+  "name": "loopback-connector-neo4j-graphs",
+  "version": "0.0.1",
+  "description": "loopback connector for neo4j with support for include filters",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -G --timeout 10000 test/neo4j-graph.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donatedTunic1290/loopback-connector-neo4j-graphs.git"
+  },
+  "keywords": [
+    "loopback",
+    "neo4j",
+    "connector"
+  ],
+  "author": "Aakash Bansal <connect@aakashbansal.com> (http://www.aakashbansal.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donatedTunic1290/loopback-connector-neo4j-graphs/issues"
+  },
+  "homepage": "https://github.com/donatedTunic1290/loopback-connector-neo4j-graphs#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "debug": "^2.2.0",
+    "loopback-connector": "^2.3.0",
+    "neo4j": "^2.0.0-RC2",
+    "util": "^0.10.3",
+    "uuid": "^3.0.0"
+  }
+}
